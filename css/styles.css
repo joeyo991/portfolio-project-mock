@@ -27,11 +27,6 @@ h1, h2 {
     margin-left: 25px;
 }
 
-#logo a:hover {
-    border: 1px solid black;
-    padding: 5px;
-}
-
 /*  nav bar */
 
 #navigation {
@@ -95,4 +90,16 @@ h1, h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+/* Reasons */
+
+#reasons-box {
+    height: 650px;
+}
+
+#why {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 250%;
 }
