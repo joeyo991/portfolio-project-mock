@@ -95,11 +95,52 @@ h1, h2 {
 /* Reasons */
 
 #reasons-box {
-    height: 650px;
+    height: 150px;
 }
 
 #why {
     text-align: center;
     margin: 20px 0;
     font-size: 250%;
+}
+
+#health {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+#improve {
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+#sustain {
+    width: 30%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.reasons {
+    text-align: center;
+}
+
+#sustain a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+/* map section*/
+
+#map {
+    padding-top: 30px;
+    text-align: center;
 }
