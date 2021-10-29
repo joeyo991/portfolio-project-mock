@@ -27,7 +27,7 @@ h1, h2 {
     margin-left: 25px;
 }
 
-/*  nav bar */
+/*  header and nav bar */
 
 #navigation {
     font-size: 120%;
@@ -68,7 +68,7 @@ h1, h2 {
     padding: 50px 0 0 20px;
     width: 350px;
     height: 100px;
-    background-color: rgba(221, 154, 30, .5);
+    background-color: rgba(221, 154, 30, .8);
     position: absolute;
     top: 200px;
     left: 50px;
@@ -138,9 +138,60 @@ hr {
     width: 100%;
 }
 
-/* map section*/
+/* plans link */
+
+#plans {
+    text-align: center;
+    clear: both;
+    padding-top: 45px;
+}
+
+#plans h2 {
+    padding-bottom: 30px;
+}
+
+#plans-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgba(221, 154, 30, .8);
+    color: black;
+}
+
+/* map section */
 
 #map {
     padding-top: 30px;
+    text-align: center;
+    margin: 60px 0;
+}
+
+iframe {
+    width: 70%;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: rgba(221, 154, 30, .8);
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
+footer h2 {
     text-align: center;
 }
